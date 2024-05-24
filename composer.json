@@ -2,7 +2,7 @@
     "name": "altas/export-language",
     "description": "Export language key to file",
     "type": "library",
-    "license": "GPL",
+    "license": "LGPL-3.0-or-later",
     "autoload": {
         "psr-4": {
             "Altas\\ExportLanguage\\": "src/"
