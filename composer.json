@@ -1,0 +1,28 @@
+{
+    "name": "altas/export-language",
+    "description": "Export language key to file",
+    "type": "library",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Altas\\ExportLanguage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Altas",
+            "email": "altas.x.junming@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+		"php": "^7.3"
+	},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Altas\\ExportLanguage\\ExportLanguageServiceProvider"
+            ]
+        }
+    }
+}
